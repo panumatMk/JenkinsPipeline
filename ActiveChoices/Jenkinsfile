@@ -74,9 +74,9 @@ pipeline {
             steps {
                 script {
                     
-                    echo "Movie type is " + params.MovieType+"."
+                    echo "Movie type is " + params.MovieType + "."
 
-                    echo "Movie name is "params.MovieName+"."
+                    echo "Movie name is " + params.MovieName + "."
                 }
             }
         }
